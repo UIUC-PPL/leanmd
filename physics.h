@@ -5,7 +5,7 @@
 #include "defs.h"
 
 #define BLOCK_SIZE	512
-
+#define test
 //function to calculate forces among 2 lists of atoms
 inline double calcPairForces(ParticleDataMsg* first, ParticleDataMsg* second, int stepCount,
                              std::vector<vec3>& force1, std::vector<vec3> &force2) {
